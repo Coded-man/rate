@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ 
+body {
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000;
+}
+
+.home
+{
+	width: 100%;
+	height: 465px;
+	background: transparent;
+}
+.home_background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.home_content
+{
+	position: absolute;
+	bottom: 106px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.home_title
+{
+	font-size: 72px;
+	font-weight: 800;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+.parallax-window
+{
+    min-height: 400px;
+    background: transparent;
+}
+
+.navbar-brand {
+    margin-top: auto;
+}
+
+.header-container {
+    width: 100%;
+    background: url(background.png) rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+}
+
+.link{
+    color: #ffffff;
+    font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 34px;
+/* identical to box height, or 189% */
+
+text-align: center;
+}
+
+.book-link {
+    font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 34px;
+/* identical to box height, or 189% */
+
+text-align: center;
+
+color: #FFFFFF;
+border-style: none;
+border: solid;
+background-color: transparent;
+border-width: thin;
+padding: 0 15px;
+margin-right: 0;
+}
+
+.first-heading{
+    font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 78px;
+
+}
+.first-paragraph{
+    font-weight: 600;
+    font-size: medium;
+    margin: 0;
+    color: #ffffff;
+}
+.cont{
+    border: 1px solid #FFFFFF;
+    font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+
+color: #FFFFFF;
+padding: 20px;
+text-align: center;
+}
+
+
+/* .logo {
+    align-content: center;
+} */
+
+h1 {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: normal;
+    font-size: 64px;
+    margin-top: 120px;
+}
+
+dl {
+    margin-top: 30px;
+}
+
+dt {
+    clear: left;
+    float: left;
+    padding: 0 0 2px;
+    font-family: Proxima Nova;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+}
+
+dd {
+    float: left;
+    margin-left: 70px;
+    margin-top: 10px;
+    padding: 0 0 2px;
+    font-family: Proxima Nova;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.room-features {
+    font-family: Proxima Nova;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+clear: both;
+
+color: #000000;
+}
+
+.m {
+    margin: 145px 0;
+}
+
+#room-info {
+    font-family: Proxima Nova;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+border-bottom: solid;
+border-width: thin;
+padding: 15px;
+margin-right: 30px;
+
+color: #155A45;
+
+}
+
+p {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin: 28px 0;
+}
+
+
+footer {
+    margin-top: 120px;
+}
+
+.beside {
+    font-family: Basis Grotesque Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 34px;
+line-height: 56px;
+/* or 165% */
+
+
+color: #000000;
+}
+
+.beneath {
+    text-align: center;
+    margin: 50px 0;
+}
+input {
+    font-family: Proxima Nova;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: #155A45;
+border-style: none;
+border-bottom: solid;
+border-width: thin;
+padding: 15px;
+text-align: center;
+margin-right: 15px;
+}
+
+.submit {
+    font-family: Proxima Nova;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+    background: #155A45;
+border: 1px solid #155A45;
+box-sizing: border-box;
+padding: 10px 30px 10px 30px;
+}
+
+.above-footer {
+    text-align: center;
+    line-height: 75px;
+    margin-bottom: 70px;
+}
+.above {
+    font-family: Basis Grotesque Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+
+color: #000000;
+text-align: center;
+}
+
+#above {
+    font-family: Proxima Nova;
+font-style: normal;
+font-weight: normal;
+font-size: 34px;
+
+color: #155A45;
+
+border-bottom: solid;
+border-width: thin;
+padding: 15px;
+
+}
+
+#footer {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.footer-container {
+    bottom: 0%;
+    background: #155A45;
+    height: 100px;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    margin: 25px;
+}
